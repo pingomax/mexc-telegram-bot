@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mexc_bot:
+    build: .
+    container_name: mexc_bot
+    env_file: .env
+    restart: always
